@@ -1,7 +1,8 @@
-import TeamPage from './pages/TeamPage';
 import { Routes, Route } from 'react-router-dom';
-import MatchPage from './pages/MatchPage';
 
+import './App.scss';
+import MatchPage from './pages/MatchPage';
+import { TeamPage } from './pages/TeamPage';
 function App() {
   return (
     <div className='App'>
