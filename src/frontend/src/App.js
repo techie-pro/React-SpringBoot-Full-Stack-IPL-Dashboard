@@ -1,9 +1,12 @@
 import TeamPage from './pages/TeamPage';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className='App'>
-      <TeamPage />
+      <Routes>
+        <Route path='/teams/:teamName' element={<TeamPage />}></Route>
+      </Routes>
     </div>
   );
 }
